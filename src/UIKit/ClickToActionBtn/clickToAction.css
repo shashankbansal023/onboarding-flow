@@ -1,0 +1,18 @@
+.btnElement{
+    width : 420px;
+    margin-top: 20px;
+    height: 50px;
+    background-color: rgb(69, 34, 159);
+    border: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+    .btnElement{
+        width: 90vw;
+        margin-left: 20px;
+    }
+}

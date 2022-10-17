@@ -1,0 +1,55 @@
+.progressBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter' , sans-serif;
+}
+
+.circle{
+    width: 50px;
+    display: flex;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid lightgrey;
+    color: gray;
+    font-family: 'Inter';
+}
+
+.progressline{
+    width: 100px;
+    border: 1px solid lightgray;
+}
+
+.started{
+    background-color: rgba(66, 34, 145, 0.858);
+    color: white;
+}
+
+.completed {
+    border: 1px solid darkgray;
+}
+
+@media screen and (max-width : 500px){
+    .circle{
+        width: 30px;
+        display: flex;
+        height: 30px;
+        border-radius: 50%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid lightgrey;
+        color: gray;
+        font-family: 'Inter';
+    }
+    .progressline{
+        width: 50px;
+    }
+    .started{
+        background-color: rgba(66, 34, 145, 0.858);
+        color: white;
+    }
+}

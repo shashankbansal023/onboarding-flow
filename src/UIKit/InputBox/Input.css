@@ -1,0 +1,46 @@
+
+.input-box{
+    display: flex;
+    flex-direction:column;
+}
+
+.input-heading{
+    font-size: 15px;
+    color: black;
+    /* font-family: "Inter"; */
+    height: 7px;
+    font-weight: 500;
+}
+
+.input-details{
+    width : 400px;
+    height: 35px;
+    font-family: 'Inter';
+    outline: none;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    padding: 10px 0px 0px 20px;
+    font-size: 15px;
+}
+
+input[type="text"]{
+    border: none;
+    outline: none;
+}
+
+@media screen and (max-width: 500px){
+    .input-heading{
+        margin-left: 20px;
+    }
+    .input-details{
+        width: 80vw;
+        height: 35px;
+        font-family: 'Inter';
+        outline: none;
+        border: 1px solid lightgray;
+        border-radius: 4px;
+        padding: 10px 0px 0px 20px;
+        font-size: 15px;
+        margin-left: 20px;
+    }
+}

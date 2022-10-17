@@ -1,0 +1,44 @@
+.start-onboarding{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter' , sans-serif;
+}
+
+.main-header{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.start-header{
+    display: inline-block;
+    font-size: 30px;
+    color: black;
+    font-family: 'Inter';
+}
+
+.sub-header{
+    color: darkgray;
+    font-size: 15px;
+    font-family: 'Inter';
+    margin-bottom: 40px;
+}
+
+.errors-box{
+    font-size: 12px;
+    color:red;
+}
+
+@media screen and (max-width: 500px) {
+    .main-header{
+        margin-top: 30px;
+    }
+
+    .start-header{
+        font-size: 20px;
+    }
+}
