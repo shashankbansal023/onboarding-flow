@@ -9,6 +9,7 @@ const CreateWorkspace = ({handleProgressState}) =>{
     const [errors , setErrors] = useState({workspaceName: "" , workspaceUrl: ""})
     const navigate = useNavigate();
     const handleChange = (e) =>{
+        
         const obj = {...state};
         obj[e.target.id] = e.target.value;
         setState(obj);
